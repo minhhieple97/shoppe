@@ -3,7 +3,6 @@
 const path = require('path')
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true },
   extends: [
     // Chúng ta sẽ dùng các rule mặc định từ các plugin mà chúng ta đã cài.
     'eslint:recommended',
